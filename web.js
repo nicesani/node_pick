@@ -25,10 +25,6 @@ server.listen(3000, function(){
 });
 
 
-/*
-    
-*/
-
 server.on('request', function(req, res){
     console.log('on request');
     // if( req.method != 'POST' ){
